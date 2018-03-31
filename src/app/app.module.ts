@@ -1,12 +1,12 @@
+import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { MatButtonModule, MatCheckboxModule } from '@angular/material';
-
-import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
+import { routes } from './app.routes';
+
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
@@ -16,10 +16,12 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule.withServerTransition({ appId: 'rentberry-app' }),
     BrowserAnimationsModule,
     HttpClientModule,
-    MatButtonModule
+    RouterModule.forRoot(routes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 
 export class AppModule { }
