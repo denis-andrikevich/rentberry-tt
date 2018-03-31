@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter } from '@angular/core';
+
+import { Address } from 'angular-google-place';
 
 @Component({
   selector: 'app-home',
@@ -6,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public getAddress(address: Address) {
+    console.log(address);
   }
 }

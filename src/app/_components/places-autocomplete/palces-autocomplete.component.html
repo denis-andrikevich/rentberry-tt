@@ -1,0 +1,6 @@
+<input type="text"
+        class="autocomplete__box"
+       [(ngModel)]="address"
+       [options]="searchOptions"
+       (setAddress)="onAdressChange($event)"
+       angularGooglePlace/>

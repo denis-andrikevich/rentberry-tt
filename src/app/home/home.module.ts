@@ -2,14 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
-import { routes } from './home.routes';
+import { PlacesAutocompleteModule } from './../_components/places-autocomplete/places-autocomplete.module';
 
 import { HomeComponent } from './home.component';
+
+import { routes } from './home.routes';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    PlacesAutocompleteModule
   ],
   declarations: [
     HomeComponent
