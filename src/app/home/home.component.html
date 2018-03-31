@@ -1,5 +1,3 @@
-<p>
-  home works!
-</p>
-
-<app-palces-autocomplete (getAddress)="getAddress($event)"></app-palces-autocomplete>
+<app-palces-autocomplete (onSearchSubmit)="onSubmit($event)"
+                         [searchTittle]="'Property search'">
+</app-palces-autocomplete>

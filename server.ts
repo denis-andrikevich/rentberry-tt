@@ -36,6 +36,10 @@ app.engine('html', (_, options, callback) => {
 app.set('view engine', 'html');
 app.set('views', join(DIST_FOLDER, 'browser'));
 
+app.post('/api/rents', (req, res) => {
+  res.send(JSON.stringify({a: 1}));
+});
+
 app.get('*.*', express.static(join(DIST_FOLDER, 'browser')));
 
 app.get('*', (req, res) => {

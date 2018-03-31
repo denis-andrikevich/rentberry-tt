@@ -1,6 +1,10 @@
-<input type="text"
-        class="autocomplete__box"
-       [(ngModel)]="address"
-       [options]="searchOptions"
-       (setAddress)="onAdressChange($event)"
-       angularGooglePlace/>
+<h1 class="text-center">{{ searchTittle }} </h1>
+<form (ngSubmit)="onSubmit()" class="line-form" #form="ngForm">
+  <input type="text"
+         class="rtb-input"
+         [options]="searchOptions"
+         (setAddress)="onAdressChanged($event)"
+         angularGooglePlace/>
+  <button type="submit" class="btn btn--filled btn--large">Search</button>
+  {{ form }}
+</form>

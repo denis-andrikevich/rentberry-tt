@@ -1,0 +1,25 @@
+.btn {
+  border-radius: 6px;
+  transition: linear .2s all;
+  cursor: pointer;
+  font-family: 'miliolight', Arial, Helvetica, sans-serif;
+
+  &:disabled {
+    opacity: .3;
+  }
+
+  &--filled {
+    color: #fff;
+    background-color: #7B53C1;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  &--large {
+    font-size: 20px;
+    max-width: 140px;
+    width: 100%;
+  }
+}

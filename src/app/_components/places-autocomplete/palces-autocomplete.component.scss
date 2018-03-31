@@ -1,3 +1,14 @@
-.autocomplete__box {
-  min-width: 400px;
+.rtb-input {
+  width: 100%;
+  max-width: 600px;
+}
+.line-form {
+  display: flex;
+  justify-content: center;
+
+  .btn {
+    flex-shrink: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 }

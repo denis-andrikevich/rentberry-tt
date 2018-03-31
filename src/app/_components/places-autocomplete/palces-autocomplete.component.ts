@@ -2,10 +2,15 @@ import {
   Component,
   OnInit,
   Output,
-  EventEmitter
+  EventEmitter,
+  Input
 } from '@angular/core';
 
 import { Address } from 'angular-google-place';
+
+import { GeolocationService } from './../../core/utils/geolocation';
+
+import { FormattedAddress } from '../../core/models/places';
 
 @Component({
   selector: 'app-palces-autocomplete',
@@ -15,10 +20,14 @@ import { Address } from 'angular-google-place';
 export class PalcesAutocompleteComponent implements OnInit {
   public searchOptions: any;
   public address: Address;
+  public formattedAddress: FormattedAddress = {};
+  // tslint:disable-next-line:no-output-on-prefix
+  @Output()
+  onSearchSubmit: EventEmitter<FormattedAddress> = new EventEmitter<FormattedAddress>();
+  @Input()
+  searchTittle: String;
 
-  @Output() getAddress: EventEmitter<Address> = new EventEmitter<Address>();
-
-  constructor() { }
+  constructor(private geolocationService: GeolocationService) { }
 
   ngOnInit() {
     this.searchOptions = {
@@ -29,7 +38,16 @@ export class PalcesAutocompleteComponent implements OnInit {
     };
   }
 
-  onAdressChange(address: Address) {
-    this.getAddress.emit(address);
+  public onAdressChanged(address: Address) {
+    console.log(this.geolocationService.getAddressFragments(address));
+    this.formattedAddress = this.geolocationService.getAddressFragments(address);
+  }
+
+  public onSubmit() {
+    if (Object.keys(this.formattedAddress).length !== 5) {
+      return false;
+    }
+
+    return this.onSearchSubmit.emit(this.formattedAddress);
   }
 }
