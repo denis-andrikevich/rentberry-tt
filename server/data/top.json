@@ -1,0 +1,730 @@
+{
+  "body": [
+    {
+      "id": 5,
+      "user": {
+        "id": 10,
+        "type": "homeowner",
+        "nameFirst": "John",
+        "nameMiddle": null,
+        "nameLast": "Raisin",
+        "username": "johnraisin59@gmail.com",
+        "profilePicture": "https://rentberry.com/media/users/profile_picture/56d8457fc8c78.jpg",
+        "phone": null,
+        "birthday": "171324000000",
+        "bio": "I am investment banker, who loves yachting. I am looking for a clean tenant who would respect my property and neighboors.",
+        "facebookUrl": null,
+        "linkedinUrl": null,
+        "roles": [
+          "ROLE_HOMEOWNER"
+        ],
+        "isActive": true,
+        "isVerified": null,
+        "isRegistered": true,
+        "profilePictureThumbs": {
+          "user_picture_100": "https://rentberry.com/media/cache/resolve/user_picture_100/media/users/profile_picture/56d8457fc8c78.jpg",
+          "user_picture_280": "https://rentberry.com/media/cache/resolve/user_picture_280/media/users/profile_picture/56d8457fc8c78.jpg"
+        }
+      },
+      "userId": 10,
+      "apartmentPictures": [
+        {
+          "id": 62,
+          "userId": 10,
+          "apartmentId": 5,
+          "image": "https://rentberry.com/media/apartments/56d959b071b9d.jpg",
+          "order": null,
+          "isCover": true,
+          "updatedAt": "1457084848000",
+          "createdAt": "1457084848000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/apartment_440/media/apartments/56d959b071b9d.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d959b071b9d.jpg"
+          }
+        },
+        {
+          "id": 65,
+          "userId": 10,
+          "apartmentId": 5,
+          "image": "https://rentberry.com/media/apartments/56d95a0d2fb43.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457084941000",
+          "createdAt": "1457084941000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95a0d2fb43.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95a0d2fb43.jpg"
+          }
+        },
+        {
+          "id": 66,
+          "userId": 10,
+          "apartmentId": 5,
+          "image": "https://rentberry.com/media/apartments/56d95a0d3a2a2.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457084941000",
+          "createdAt": "1457084941000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95a0d3a2a2.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95a0d3a2a2.jpg"
+          }
+        },
+        {
+          "id": 67,
+          "userId": 10,
+          "apartmentId": 5,
+          "image": "https://rentberry.com/media/apartments/56d95a0d4fbfa.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457084941000",
+          "createdAt": "1457084941000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95a0d4fbfa.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95a0d4fbfa.jpg"
+          }
+        },
+        {
+          "id": 68,
+          "userId": 10,
+          "apartmentId": 5,
+          "image": "https://rentberry.com/media/apartments/56d95a0d7fa21.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457084941000",
+          "createdAt": "1457084941000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95a0d7fa21.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95a0d7fa21.jpg"
+          }
+        }
+      ],
+      "name": "Sunny Apartment",
+      "address": "333 Netishyn St, San Francisco, CA 94123, USA",
+      "place": {
+        "address_components": [
+          {
+            "long_name": "333",
+            "short_name": "333",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "Avila Street",
+            "short_name": "Avila St",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Marina District",
+            "short_name": "Marina District",
+            "types": [
+              "neighborhood",
+              "political"
+            ]
+          },
+          {
+            "long_name": "San Francisco",
+            "short_name": "SF",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "San Francisco County",
+            "short_name": "San Francisco County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "California",
+            "short_name": "CA",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "United States",
+            "short_name": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "94123",
+            "short_name": "94123",
+            "types": [
+              "postal_code"
+            ]
+          },
+          {
+            "long_name": "1105",
+            "short_name": "1105",
+            "types": [
+              "postal_code_suffix"
+            ]
+          }
+        ],
+        "adr_address": "<span class=\"street-address\">333 Avila St</span>, <span class=\"locality\">San Francisco</span>, <span class=\"region\">CA</span> <span class=\"postal-code\">94123-1105</span>, <span class=\"country-name\">USA</span>",
+        "formatted_address": "333 Avila St, San Francisco, CA 94123, USA",
+        "geometry": {
+          "location": {
+            "lat": 37.804369,
+            "lng": -122.441383
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+        "id": "c1973d81f1712e4626a6eb4452a9cd8fe0bd6729",
+        "name": "333 Avila St",
+        "place_id": "ChIJW-KuHiqBhYARGasOrvru0Kw",
+        "reference": "CpQBiAAAAFl5URXhaumjUNbyxlLC6SP9gD5JeXS7tR7JBpSmOLUdn8WrehGEc7_ZCcoMFsIBu0Nb3kZfINiu2eWNd5gmtubEME3DlxgRDR86IXcy9c7-z9jTJ8DXI-zw1wLbhq4SHm1uxhUsF4LL_1kJKky3132N7HcMFK8nXgQSkjwllqezFC3gPLy8sMCH2cX4R76GaxIQtvaSxdGQ02jtcMKILzWksBoU-73BojpTeY_RtsHzddYGp_oR-hA",
+        "scope": "GOOGLE",
+        "types": [
+          "street_address"
+        ],
+        "url": "https://maps.google.com/?q=333+Avila+St,+San+Francisco,+CA+94123,+USA&ftid=0x8085812a1eaee25b:0xacd0eefaae0eab19",
+        "vicinity": "San Francisco",
+        "html_attributions": []
+      },
+      "apartmentNumber": "7",
+      "openHouse": "Friday, March 18th",
+      "available": "April 1st",
+      "bedrooms": 2,
+      "baths": 1,
+      "space": 1100,
+      "type": "apartment",
+      "price": 5300,
+      "deposit": 7000,
+      "priceHighest": 5300,
+      "depositHighest": 7000,
+      "depositPet": 500,
+      "description": "<div><span><span>This is well-known SF neighborhood with small homes and\napartments built in 1930's, adjacent to Palace of Fine Arts. It is flat, fine\nfor walking, young families, dogs.</span></span></div><div>&nbsp;<br></div><div><span><span>Easy walk to shopping and restaurants (Chestnut Street) and bus\nto downtown (30 Stockton). Scenic walk along bay to Golden Gate (west) or\nMarina Green (east). Easy auto access to bridge and Marin County.</span></span>\n\n</div>",
+      "washerUnit": true,
+      "washerSite": false,
+      "parking": true,
+      "smoking": false,
+      "airConditioning": true,
+      "pets": true,
+      "heating": true,
+      "hardwoodFloors": true,
+      "pool": false,
+      "hotTub": false,
+      "elevator": true,
+      "fireplace": false,
+      "doorman": true,
+      "buzzer": true,
+      "wheelchairAccesible": false,
+      "smokeDetector": true,
+      "carbon": false,
+      "isActive": true,
+      "isDeleted": false,
+      "isRented": false,
+      "updatedAt": "1457017472000",
+      "createdAt": "1457017472000"
+    },
+    {
+      "id": 7,
+      "user": {
+        "id": 11,
+        "type": "homeowner",
+        "nameFirst": "Monica",
+        "nameMiddle": null,
+        "nameLast": "Brown",
+        "username": "bmonica048@gmail.com",
+        "profilePicture": "https://rentberry.com/media/users/profile_picture/56d85d3bc89e6.jpg",
+        "phone": null,
+        "birthday": null,
+        "bio": "My name is Monica and I am a corporate lawyer. Looking for nice people to rent my property.",
+        "facebookUrl": null,
+        "linkedinUrl": null,
+        "roles": [
+          "ROLE_HOMEOWNER"
+        ],
+        "isActive": true,
+        "isVerified": null,
+        "isRegistered": true,
+        "profilePictureThumbs": {
+          "user_picture_100": "https://rentberry.com/media/cache/resolve/user_picture_100/media/users/profile_picture/56d85d3bc89e6.jpg",
+          "user_picture_280": "https://rentberry.com/media/cache/resolve/user_picture_280/media/users/profile_picture/56d85d3bc89e6.jpg"
+        }
+      },
+      "userId": 11,
+      "apartmentPictures": [
+        {
+          "id": 69,
+          "userId": 11,
+          "apartmentId": 7,
+          "image": "https://rentberry.com/media/apartments/56d95ba751d45.jpg",
+          "order": null,
+          "isCover": true,
+          "updatedAt": "1457085351000",
+          "createdAt": "1457085351000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/apartment_440/media/apartments/56d95ba751d45.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95ba751d45.jpg"
+          }
+        },
+        {
+          "id": 70,
+          "userId": 11,
+          "apartmentId": 7,
+          "image": "https://rentberry.com/media/apartments/56d95c5b0367f.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457085531000",
+          "createdAt": "1457085530000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95c5b0367f.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95c5b0367f.jpg"
+          }
+        },
+        {
+          "id": 71,
+          "userId": 11,
+          "apartmentId": 7,
+          "image": "https://rentberry.com/media/apartments/56d95c81ddef8.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457085569000",
+          "createdAt": "1457085569000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95c81ddef8.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95c81ddef8.jpg"
+          }
+        },
+        {
+          "id": 72,
+          "userId": 11,
+          "apartmentId": 7,
+          "image": "https://rentberry.com/media/apartments/56d95c97cdf47.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457085591000",
+          "createdAt": "1457085591000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95c97cdf47.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95c97cdf47.jpg"
+          }
+        },
+        {
+          "id": 73,
+          "userId": 11,
+          "apartmentId": 7,
+          "image": "https://rentberry.com/media/apartments/56d95ca8c5492.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457085608000",
+          "createdAt": "1457085608000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95ca8c5492.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95ca8c5492.jpg"
+          }
+        },
+        {
+          "id": 74,
+          "userId": 11,
+          "apartmentId": 7,
+          "image": "https://rentberry.com/media/apartments/56d95cb5f23d6.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457085621000",
+          "createdAt": "1457085621000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d95cb5f23d6.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95cb5f23d6.jpg"
+          }
+        }
+      ],
+      "name": "Alamo Square Flat",
+      "address": "1529 Golden Gate Ave, San Francisco, CA 94115, USA",
+      "place": {
+        "address_components": [
+          {
+            "long_name": "1529",
+            "short_name": "1529",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "Golden Gate Avenue",
+            "short_name": "Golden Gate Ave",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Alamo Square",
+            "short_name": "Alamo Square",
+            "types": [
+              "neighborhood",
+              "political"
+            ]
+          },
+          {
+            "long_name": "San Francisco",
+            "short_name": "SF",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "San Francisco County",
+            "short_name": "San Francisco County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "California",
+            "short_name": "CA",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "United States",
+            "short_name": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "94115",
+            "short_name": "94115",
+            "types": [
+              "postal_code"
+            ]
+          },
+          {
+            "long_name": "4514",
+            "short_name": "4514",
+            "types": [
+              "postal_code_suffix"
+            ]
+          }
+        ],
+        "adr_address": "<span class=\"street-address\">1529 Golden Gate Ave</span>, <span class=\"locality\">San Francisco</span>, <span class=\"region\">CA</span> <span class=\"postal-code\">94115-4514</span>, <span class=\"country-name\">USA</span>",
+        "formatted_address": "1529 Golden Gate Ave, San Francisco, CA 94115, USA",
+        "geometry": {
+          "location": {
+            "lat": 37.778726,
+            "lng": -122.436586
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+        "id": "b2a705c47ad21a97e3afce29aca8b73f58933576",
+        "name": "1529 Golden Gate Ave",
+        "place_id": "ChIJ4ULYYbCAhYARFjr86HFew0k",
+        "reference": "CpQBkAAAAJeHb-lQBLivguK9vo6cKQcA_NpiRpXK4RpFSUKhyd943rWjluVRX0-53Xh0qVRzD7IcV94yOkDBEefzyOmzOBREUhnGWk7ApCrsHZ8uf4FU9Ky8XNw8PkQ5UFr4gSks_3WyDwRpRVV4MYhQilGd1SaEEwBPOPLw8LUjuH1N7jRiTM0-tOC8FPvKTmPR7sEQvBIQXFII5-gzvBLqyLiNmoG5rhoU_-g9C1iaAfRbgWSw6GRPjCHUGmc",
+        "scope": "GOOGLE",
+        "types": [
+          "street_address"
+        ],
+        "url": "https://maps.google.com/?q=1529+Golden+Gate+Ave,+San+Francisco,+CA+94115,+USA&ftid=0x808580b061d842e1:0x49c35e71e8fc3a16",
+        "vicinity": "San Francisco",
+        "html_attributions": []
+      },
+      "apartmentNumber": null,
+      "openHouse": "Sat, Mar 12",
+      "available": "March 21st",
+      "bedrooms": 2,
+      "baths": 2,
+      "space": 1300,
+      "type": "apartment",
+      "price": 4500,
+      "deposit": 6000,
+      "priceHighest": null,
+      "depositHighest": null,
+      "depositPet": null,
+      "description": "<span>As\nyou walk through the front door you are greeted with beautiful hardwood floors\nthroughout the home. On the left there is a large formal living room with a large dining room.</span><div><span><br></span></div><div><span>This place has lots of light.&nbsp;</span><span>It is a wonderful combination of space, location\nand style.&nbsp;</span></div>",
+      "washerUnit": true,
+      "washerSite": false,
+      "parking": true,
+      "smoking": false,
+      "airConditioning": true,
+      "pets": false,
+      "heating": true,
+      "hardwoodFloors": true,
+      "pool": false,
+      "hotTub": false,
+      "elevator": true,
+      "fireplace": true,
+      "doorman": true,
+      "buzzer": true,
+      "wheelchairAccesible": false,
+      "smokeDetector": true,
+      "carbon": false,
+      "isActive": true,
+      "isDeleted": false,
+      "isRented": false,
+      "updatedAt": "1457020973000",
+      "createdAt": "1457020973000"
+    },
+    {
+      "id": 8,
+      "user": {
+        "id": 15,
+        "type": "homeowner",
+        "nameFirst": "Robert",
+        "nameMiddle": null,
+        "nameLast": "Draper",
+        "username": "robert.mr.draper@gmail.com",
+        "profilePicture": "https://rentberry.com/media/users/profile_picture/56d8643f5851f.jpg",
+        "phone": null,
+        "birthday": null,
+        "bio": "Looking for a nice tenant without pets.",
+        "facebookUrl": null,
+        "linkedinUrl": null,
+        "roles": [
+          "ROLE_HOMEOWNER"
+        ],
+        "isActive": true,
+        "isVerified": null,
+        "isRegistered": true,
+        "profilePictureThumbs": {
+          "user_picture_100": "https://rentberry.com/media/cache/resolve/user_picture_100/media/users/profile_picture/56d8643f5851f.jpg",
+          "user_picture_280": "https://rentberry.com/media/cache/resolve/user_picture_280/media/users/profile_picture/56d8643f5851f.jpg"
+        }
+      },
+      "userId": 15,
+      "apartmentPictures": [
+        {
+          "id": 75,
+          "userId": 15,
+          "apartmentId": 8,
+          "image": "https://rentberry.com/media/apartments/56d95fe406e77.jpg",
+          "order": null,
+          "isCover": true,
+          "updatedAt": "1457086436000",
+          "createdAt": "1457086436000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/apartment_440/media/apartments/56d95fe406e77.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d95fe406e77.jpg"
+          }
+        },
+        {
+          "id": 77,
+          "userId": 15,
+          "apartmentId": 8,
+          "image": "https://rentberry.com/media/apartments/56d9600a1c88e.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457086474000",
+          "createdAt": "1457086474000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d9600a1c88e.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d9600a1c88e.jpg"
+          }
+        },
+        {
+          "id": 78,
+          "userId": 15,
+          "apartmentId": 8,
+          "image": "https://rentberry.com/media/apartments/56d9601fe0475.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457086495000",
+          "createdAt": "1457086495000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d9601fe0475.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d9601fe0475.jpg"
+          }
+        },
+        {
+          "id": 79,
+          "userId": 15,
+          "apartmentId": 8,
+          "image": "https://rentberry.com/media/apartments/56d9602f10401.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457086511000",
+          "createdAt": "1457086511000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d9602f10401.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d9602f10401.jpg"
+          }
+        },
+        {
+          "id": 80,
+          "userId": 15,
+          "apartmentId": 8,
+          "image": "https://rentberry.com/media/apartments/56d9603be96f1.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457086523000",
+          "createdAt": "1457086523000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d9603be96f1.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d9603be96f1.jpg"
+          }
+        },
+        {
+          "id": 81,
+          "userId": 15,
+          "apartmentId": 8,
+          "image": "https://rentberry.com/media/apartments/56d96049db493.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457086537000",
+          "createdAt": "1457086537000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d96049db493.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d96049db493.jpg"
+          }
+        },
+        {
+          "id": 82,
+          "userId": 15,
+          "apartmentId": 8,
+          "image": "https://rentberry.com/media/apartments/56d960545448a.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1457086548000",
+          "createdAt": "1457086548000",
+          "imageThumbs": {
+            "apartment_440": "https://rentberry.com/media/cache/resolve/apartment_440/media/apartments/56d960545448a.jpg",
+            "apartment_1000": "https://rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56d960545448a.jpg"
+          }
+        }
+      ],
+      "name": "Prime Downtown",
+      "address": "338 Spear St, San Francisco, CA 94105, USA",
+      "place": {
+        "address_components": [
+          {
+            "long_name": "338",
+            "short_name": "338",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "Spear Street",
+            "short_name": "Spear St",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "South Beach",
+            "short_name": "South Beach",
+            "types": [
+              "neighborhood",
+              "political"
+            ]
+          },
+          {
+            "long_name": "San Francisco",
+            "short_name": "SF",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "San Francisco County",
+            "short_name": "San Francisco County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "California",
+            "short_name": "CA",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "United States",
+            "short_name": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "94105",
+            "short_name": "94105",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "adr_address": "<span class=\"street-address\">338 Spear St</span>, <span class=\"locality\">San Francisco</span>, <span class=\"region\">CA</span> <span class=\"postal-code\">94105</span>, <span class=\"country-name\">USA</span>",
+        "formatted_address": "338 Spear St, San Francisco, CA 94105, USA",
+        "geometry": {
+          "location": {
+            "lat": 37.7894281,
+            "lng": -122.3906187
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+        "id": "6614fab4a539dd117009872befc4c8d279dd156c",
+        "name": "338 Spear St",
+        "place_id": "ChIJCX6DoXqAhYAR0qJwRddB05w",
+        "reference": "CpQBiAAAALpleaBKu7_oRkdtrKkt8W35mpnroUNhj-nL6ZnNGR06pnM6itgIIn0KUfnuAuEtcOaqM0ISBfqIfVqpg8JGHRa_LapLEF6S_oGQUmdQcgEb6emh-R0OXhr4OGbEVNfV87n2uforI0bs4jqVnfynZAkHDqh68Y_Jrjq33Po1Vzt4qNjoEbkE2zrwRYdu5jBnuBIQ9InFd3pE4Nmda8wLqla_ZRoUnlOTDkauVqzCgbX9Nnbu_LI0Pxc",
+        "scope": "GOOGLE",
+        "types": [
+          "street_address"
+        ],
+        "url": "https://maps.google.com/?q=338+Spear+St,+San+Francisco,+CA+94105,+USA&ftid=0x8085807aa1837e09:0x9cd341d74570a2d2",
+        "vicinity": "San Francisco",
+        "html_attributions": []
+      },
+      "apartmentNumber": "27b",
+      "openHouse": "Wed, Mar 16th",
+      "available": "March 21st",
+      "bedrooms": 2,
+      "baths": 2.5,
+      "space": 1520,
+      "type": "apartment",
+      "price": 3900,
+      "deposit": 7000,
+      "priceHighest": 4500,
+      "depositHighest": 7000,
+      "depositPet": 300,
+      "description": "<span>Prime location in\ndowntown SF. Near public transit and nightlife. Beautiful view of the city from\nsky-rise apartment. Fully furnished with high quality furniture and appliances.</span>",
+      "washerUnit": true,
+      "washerSite": false,
+      "parking": true,
+      "smoking": false,
+      "airConditioning": true,
+      "pets": true,
+      "heating": true,
+      "hardwoodFloors": true,
+      "pool": false,
+      "hotTub": false,
+      "elevator": false,
+      "fireplace": false,
+      "doorman": false,
+      "buzzer": false,
+      "wheelchairAccesible": false,
+      "smokeDetector": false,
+      "carbon": false,
+      "isActive": true,
+      "isDeleted": false,
+      "isRented": false,
+      "updatedAt": "1457022377000",
+      "createdAt": "1457022377000"
+    }
+  ],
+  "error": {
+    "code": 200,
+    "message": "All good"
+  }
+}

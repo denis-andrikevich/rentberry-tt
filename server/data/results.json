@@ -1,0 +1,402 @@
+{
+  "body": [
+    {
+      "id": 16,
+      "user": {
+        "id": 9,
+        "type": "homeowner",
+        "nameFirst": "Home2",
+        "nameMiddle": null,
+        "nameLast": "Test2",
+        "username": "rentberrytest2@gmail.com",
+        "profilePicture": "http://test.rentberry.com/media/users/profile_picture/56b872ec3e347.jpeg",
+        "phone": 3213123123,
+        "birthday": "439164000000",
+        "bio": "<div>Write a brief biography to introduce yourself, highlight achievements, list credentials and any notable projects with which you are involved. Bios should be short and concise, listing only relevant information. Avoid listing personal statistics, such as family and hobbies; instead angle the bio to the intended audience, whether for a personal website or a professional networking website.</div>",
+        "facebookUrl": null,
+        "linkedinUrl": null,
+        "roles": [
+          "ROLE_HOMEOWNER"
+        ],
+        "isActive": true,
+        "isVerified": null,
+        "isRegistered": true,
+        "profilePictureThumbs": {
+          "user_picture_100": "http://test.rentberry.com/media/cache/user_picture_100/media/users/profile_picture/56b872ec3e347.jpeg",
+          "user_picture_280": "http://test.rentberry.com/media/cache/user_picture_280/media/users/profile_picture/56b872ec3e347.jpeg"
+        }
+      },
+      "userId": 9,
+      "apartmentPictures": [
+        {
+          "id": 30,
+          "userId": 9,
+          "apartmentId": 16,
+          "image": "http://test.rentberry.com/media/apartments/56bddd398ac81.JPG",
+          "order": null,
+          "isCover": true,
+          "updatedAt": "1455283513000",
+          "createdAt": "1455283513000",
+          "imageThumbs": {
+            "apartment_440": "http://test.rentberry.com/media/cache/apartment_440/media/apartments/56bddd398ac81.JPG",
+            "apartment_1000": "http://test.rentberry.com/media/cache/apartment_1000/media/apartments/56bddd398ac81.JPG"
+          }
+        }
+      ],
+      "name": "Cmon",
+      "address": "969 William T Morrissey Blvd, Dorchester, MA 02122, Соединенные Штаты",
+      "place": {
+        "address_components": [
+          {
+            "long_name": "969",
+            "short_name": "969",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "William T Morrissey Boulevard",
+            "short_name": "William T Morrissey Blvd",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Dorchester",
+            "short_name": "Dorchester",
+            "types": [
+              "neighborhood",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Massachusetts",
+            "short_name": "MA",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Соединенные Штаты",
+            "short_name": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "02122",
+            "short_name": "02122",
+            "types": [
+              "postal_code"
+            ]
+          },
+          {
+            "long_name": "3200",
+            "short_name": "3200",
+            "types": [
+              "postal_code_suffix"
+            ]
+          }
+        ],
+        "adr_address": "<span class=\"street-address\">969 William T Morrissey Blvd</span>, <span class=\"locality\">Dorchester</span>, <span class=\"region\">MA</span> <span class=\"postal-code\">02122-3200</span>, <span class=\"country-name\">Соединенные Штаты</span>",
+        "formatted_address": "969 William T Morrissey Blvd, Dorchester, MA 02122, Соединенные Штаты",
+        "formatted_phone_number": "(617) 265-1455",
+        "geometry": {
+          "location": {
+            "lat": 42.2909006,
+            "lng": -71.0470496
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+        "id": "d6a2472593cc5a8485bb3169558e7e7fb4b9b8d1",
+        "international_phone_number": "+1 617-265-1455",
+        "name": "Джон Шелл",
+        "place_id": "ChIJv2_JBnV744kRqiRLGVdbHBc",
+        "price_level": 2,
+        "rating": 4,
+        "reference": "CnRkAAAAJqSpmu6nnAarW6jJgO_eYyCgNfQ60ioQ_SaZk3IU3xi9zRM12AfJusXkoSU6PTyZFmFQ9ohRVK5RRnDf_AAnRFWq0oVgXXxFXUyZrYcZavYnMiWg_bt4NMHI-4S_Cdy3q5waq4_71dDSyLh8hemO4RIQaYzVyIlbmMvEda_VcoyIwRoUz-4K6ie1cXf1QRbxhYi3A5NBmEY",
+        "reviews": [
+          {
+            "aspects": [
+              {
+                "rating": 3,
+                "type": "overall"
+              }
+            ],
+            "author_name": "Jatin Bhanot",
+            "author_url": "https://plus.google.com/107303877230522817061",
+            "language": "en",
+            "profile_photo_url": "//lh3.googleusercontent.com/-wW_zgYj9AB8/AAAAAAAAAAI/AAAAAAAAFqo/Qvydc_zZEKQ/photo.jpg",
+            "rating": 5,
+            "text": "I went there yesterday for some work that I needed done on the car. John looked at it right away and quoted a very reasonable price. The parts were installed and the other repair work completed to my satisfaction. I knew exactly what had to be done and what the end result should look and feel like so when they offered to show me what was done and explained the whole thing, I knew they were telling the truth. I normally don't write reviews but I just had to make an exception.",
+            "time": 1453489648
+          },
+          {
+            "aspects": [
+              {
+                "rating": 0,
+                "type": "overall"
+              }
+            ],
+            "author_name": "Mike Sands",
+            "author_url": "https://plus.google.com/110091529846316798798",
+            "language": "en",
+            "rating": 1,
+            "text": "Had a tire replaced by these crooks.  They insisted on having my address for the tire replacement.  I gave them address thinking what harm would that do. Hence, two weeks later all my tires and rims were stolen. Found my car carefully placed on plastic crates.  DONT GO THERE THEY RIP PEOPLE OFF.",
+            "time": 1453095747
+          },
+          {
+            "aspects": [
+              {
+                "rating": 3,
+                "type": "overall"
+              }
+            ],
+            "author_name": "Monique Brown",
+            "author_url": "https://plus.google.com/114321778351583757453",
+            "language": "en",
+            "rating": 5,
+            "text": "As a woman it is very hard to find a mechanic that's not a thief. John and his crew were very professional and took great care of my vehicle for a very reasonable price. I enjoyed working with them and will continue bringing my car there for any future automotive repairs and maintenance.",
+            "time": 1426456027
+          },
+          {
+            "aspects": [
+              {
+                "rating": 3,
+                "type": "overall"
+              }
+            ],
+            "author_name": "Bill Chisholm",
+            "author_url": "https://plus.google.com/117652860124427428967",
+            "language": "en",
+            "profile_photo_url": "//lh6.googleusercontent.com/-Vos97R7GMbA/AAAAAAAAAAI/AAAAAAAAW3s/IOKO9slYCFU/photo.jpg",
+            "rating": 5,
+            "text": "This is local auto repair place I have ever been to (and I've been to a lot over the last decade). Very skilled mechanics, very helpful explanation to help understand what needs work and what doesn't (unlike dealerships and corporate car repair businesses). The cost for labor and parts is low. They see customer service before profit and that's rare in today's world. Highly recommended for all standard auto services. ",
+            "time": 1398804026
+          },
+          {
+            "aspects": [
+              {
+                "rating": 3,
+                "type": "overall"
+              }
+            ],
+            "author_name": "john gas",
+            "author_url": "https://plus.google.com/118361193113723545527",
+            "language": "en",
+            "rating": 5,
+            "text": "google it is no longer johns shell no longer a shell station... now called johns gas and auto repair",
+            "time": 1406559368
+          }
+        ],
+        "scope": "GOOGLE",
+        "types": [
+          "gas_station",
+          "car_repair",
+          "point_of_interest",
+          "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=1665306391864878250",
+        "user_ratings_total": 6,
+        "utc_offset": -300,
+        "vicinity": "969 William T Morrissey Boulevard, Dorchester",
+        "website": "http://www.shell.com/",
+        "html_attributions": []
+      },
+      "apartmentNumber": "13",
+      "openHouse": null,
+      "available": null,
+      "bedrooms": 2,
+      "baths": 1,
+      "space": 50,
+      "type": "other",
+      "price": 7300,
+      "deposit": 5000,
+      "priceHighest": 7600,
+      "depositHighest": 5000,
+      "depositPet": 1000,
+      "description": null,
+      "washerUnit": true,
+      "washerSite": false,
+      "parking": false,
+      "smoking": false,
+      "airConditioning": false,
+      "pets": false,
+      "heating": true,
+      "hardwoodFloors": true,
+      "pool": false,
+      "hotTub": true,
+      "elevator": false,
+      "fireplace": false,
+      "doorman": true,
+      "buzzer": false,
+      "wheelchairAccesible": true,
+      "smokeDetector": true,
+      "carbon": false,
+      "isActive": true,
+      "isDeleted": false,
+      "isRented": true,
+      "updatedAt": "1455283499000",
+      "createdAt": "1455283499000"
+    },
+    {
+      "id": 25,
+      "user": {
+        "id": 2,
+        "type": "homeowner",
+        "nameFirst": "William",
+        "nameMiddle": null,
+        "nameLast": "Pfeil",
+        "username": "t1@rentberry.com",
+        "profilePicture": "http://test.rentberry.com/media/users/profile_picture/56e80b51847a4.jpg",
+        "phone": 2122121212,
+        "birthday": "721432800000",
+        "bio": null,
+        "facebookUrl": null,
+        "linkedinUrl": null,
+        "roles": [
+          "ROLE_HOMEOWNER"
+        ],
+        "isActive": true,
+        "isVerified": null,
+        "isRegistered": true,
+        "profilePictureThumbs": {
+          "user_picture_100": "http://test.rentberry.com/media/cache/user_picture_100/media/users/profile_picture/56e80b51847a4.jpg",
+          "user_picture_280": "http://test.rentberry.com/media/cache/user_picture_280/media/users/profile_picture/56e80b51847a4.jpg"
+        }
+      },
+      "userId": 2,
+      "apartmentPictures": [
+        {
+          "id": 76,
+          "userId": 2,
+          "apartmentId": 25,
+          "image": "http://test.rentberry.com/media/apartments/56c1ed4627ccd.jpg",
+          "order": null,
+          "isCover": true,
+          "updatedAt": "1455549766000",
+          "createdAt": "1455549766000",
+          "imageThumbs": {
+            "apartment_440": "http://test.rentberry.com/media/cache/apartment_440/media/apartments/56c1ed4627ccd.jpg",
+            "apartment_1000": "http://test.rentberry.com/media/cache/apartment_1000/media/apartments/56c1ed4627ccd.jpg"
+          }
+        },
+        {
+          "id": 77,
+          "userId": 2,
+          "apartmentId": 25,
+          "image": "http://test.rentberry.com/media/apartments/56c1ed5300bc0.jpg",
+          "order": null,
+          "isCover": false,
+          "updatedAt": "1455549778000",
+          "createdAt": "1455549778000",
+          "imageThumbs": {
+            "apartment_440": "http://test.rentberry.com/media/cache/apartment_440/media/apartments/56c1ed5300bc0.jpg",
+            "apartment_1000": "http://test.rentberry.com/media/cache/resolve/apartment_1000/media/apartments/56c1ed5300bc0.jpg"
+          }
+        }
+      ],
+      "name": "счфваыв",
+      "address": "Rue du Dr Léon Dufour, 76400 Fécamp, Франция",
+      "place": {
+        "address_components": [
+          {
+            "long_name": "Rue du Docteur Léon Dufour",
+            "short_name": "Rue du Dr Léon Dufour",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Fécamp",
+            "short_name": "Fécamp",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Франция",
+            "short_name": "FR",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "76400",
+            "short_name": "76400",
+            "types": [
+              "postal_code"
+            ]
+          }
+        ],
+        "adr_address": "<span class=\"street-address\">Rue du Dr Léon Dufour</span>, <span class=\"postal-code\">76400</span> <span class=\"locality\">Fécamp</span>, <span class=\"country-name\">Франция</span>",
+        "formatted_address": "Rue du Dr Léon Dufour, 76400 Fécamp, Франция",
+        "geometry": {
+          "location": {
+            "lat": 49.7536927,
+            "lng": 0.36879299999998
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "fbad4556790ea2bbb6ee455b7fd530feaa6d2dc9",
+        "name": "dsadszd",
+        "place_id": "ChIJWxy5EEdr4EcR89jub0KLR-g",
+        "reference": "CmRbAAAAmBTqauoVifJktxuobQluMrOuCTaseVaLBmkVGpRMeww0TPkCw7H3gvtCcmzBuU73Vd0gZ7F3iMiLfegDHDbji1QmIGH8HNN66DLg_hPX9AKkHarRSFYeu06DXs1vP2_wEhBfbasOIB5SjUfp75OJxgbkGhT28N68Uj4gKpCGXHo7pr-oqSqjEA",
+        "scope": "GOOGLE",
+        "types": [
+          "gym",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=16737499657607764211",
+        "utc_offset": 60,
+        "vicinity": "Rue du Docteur Léon Dufour, Fécamp",
+        "html_attributions": []
+      },
+      "apartmentNumber": "dsa",
+      "openHouse": null,
+      "available": null,
+      "bedrooms": 4324,
+      "baths": 432,
+      "space": 432,
+      "type": "apartment",
+      "price": 432,
+      "deposit": 432,
+      "priceHighest": 432,
+      "depositHighest": 432,
+      "depositPet": null,
+      "description": "jkghjgjhgjh",
+      "washerUnit": false,
+      "washerSite": false,
+      "parking": false,
+      "smoking": false,
+      "airConditioning": false,
+      "pets": false,
+      "heating": false,
+      "hardwoodFloors": false,
+      "pool": false,
+      "hotTub": false,
+      "elevator": false,
+      "fireplace": false,
+      "doorman": false,
+      "buzzer": false,
+      "wheelchairAccesible": false,
+      "smokeDetector": false,
+      "carbon": false,
+      "isActive": true,
+      "isDeleted": false,
+      "isRented": false,
+      "updatedAt": "1455549790000",
+      "createdAt": "1455549790000"
+    }
+  ],
+  "error": {
+    "code": 200,
+    "message": "All good"
+  }
+}

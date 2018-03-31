@@ -3,14 +3,17 @@ import {
   OnInit,
   Output,
   EventEmitter,
-  Input
+  Input,
+  ViewChild
 } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 import { Address } from 'angular-google-place';
 
 import { GeolocationService } from './../../core/utils/geolocation';
 
 import { FormattedAddress } from '../../core/models/places';
+import { SEARCH_OPTIONS } from './constants';
 
 @Component({
   selector: 'app-palces-autocomplete',
@@ -23,31 +26,31 @@ export class PalcesAutocompleteComponent implements OnInit {
   public formattedAddress: FormattedAddress = {};
   // tslint:disable-next-line:no-output-on-prefix
   @Output()
-  onSearchSubmit: EventEmitter<FormattedAddress> = new EventEmitter<FormattedAddress>();
+  onSearchSubmit = new EventEmitter<FormattedAddress>();
   @Input()
   searchTittle: String;
+  @ViewChild('searchForm') searchForm: NgForm;
 
   constructor(private geolocationService: GeolocationService) { }
 
   ngOnInit() {
-    this.searchOptions = {
-      type: 'address',
-      componentRestrictions: {
-        country: 'US'
-      }
-    };
+    this.searchOptions = SEARCH_OPTIONS;
   }
 
   public onAdressChanged(address: Address) {
-    console.log(this.geolocationService.getAddressFragments(address));
     this.formattedAddress = this.geolocationService.getAddressFragments(address);
   }
 
   public onSubmit() {
-    if (Object.keys(this.formattedAddress).length !== 5) {
+    if (!this.geolocationService.isForomattedAddressValid(this.formattedAddress)) {
+      this.searchForm.form.controls['address'].setErrors({
+        invalid: true
+      });
+
       return false;
     }
 
-    return this.onSearchSubmit.emit(this.formattedAddress);
+    this.searchForm.reset();
+    this.onSearchSubmit.emit(this.formattedAddress);
   }
 }

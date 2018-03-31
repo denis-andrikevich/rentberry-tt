@@ -8,6 +8,7 @@ import { ResultsResolver } from './guards/results.resolver';
 import { SearchPlacesService } from './services/search-places.service';
 
 import { ResultsComponent } from './results.component';
+import { ApartmentComponent } from './components/apartment/apartment.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { ResultsComponent } from './results.component';
     RouterModule.forChild(routes)
   ],
   declarations: [
-    ResultsComponent
+    ResultsComponent,
+    ApartmentComponent
   ],
   providers: [
     ResultsResolver,

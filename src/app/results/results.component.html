@@ -1,3 +1,13 @@
-<p>
-  results works!
-</p>
+<div *ngIf="results.length; else resultsNotFound">
+  <h1>Results</h1>
+  <app-apartment [apartment]="apartment" *ngFor="let apartment of results"></app-apartment>
+</div>
+
+<ng-template #resultsNotFound>
+  Result not found
+</ng-template>
+
+<div *ngIf="top.length">
+  <h2>Top</h2>
+  <app-apartment [apartment]="apartment" *ngFor="let apartment of top"></app-apartment>
+</div>

@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 import { Address } from 'angular-google-place';
 
@@ -12,12 +12,9 @@ import { FormattedAddress } from '../core/models/places';
   styleUrls: ['./home.component.scss']
 })
 
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
   constructor(private router: Router) { }
-
-  ngOnInit() {
-  }
 
   onSubmit(address: FormattedAddress) {
     this.router.navigate(['/results'], {

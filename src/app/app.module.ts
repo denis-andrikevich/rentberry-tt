@@ -1,3 +1,4 @@
+import { TransferHttpCacheModule } from '@nguniversal/common';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -12,11 +13,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'rentberry-app' }),
+    BrowserModule.withServerTransition({ appId: 'my-app' }),
+    RouterModule.forRoot(routes, { initialNavigation: 'enabled' }),
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    TransferHttpCacheModule
   ],
-  providers: [],
   bootstrap: [
     AppComponent
   ]

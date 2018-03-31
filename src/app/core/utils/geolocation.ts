@@ -8,8 +8,8 @@ export class GeolocationService {
 
   public getAddressFragments(address: Address) {
     const formattedAddress: FormattedAddress = {
-      latitude: null,
-      longtitude: null
+      latitude: 0,
+      longtitude: 0
     };
 
     const componentForm = {
@@ -30,5 +30,13 @@ export class GeolocationService {
     formattedAddress.longtitude = address.geometry.location.lng();
 
     return formattedAddress;
+  }
+
+  isForomattedAddressValid(address: FormattedAddress): Boolean {
+    if (Object.keys(address).length !== 5) { return false; }
+
+    if (address.latitude === null  || address.longtitude === null) { return false; }
+
+    return true;
   }
 }
