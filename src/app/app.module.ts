@@ -10,9 +10,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule.withServerTransition({ appId: 'rentberry-app' })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
